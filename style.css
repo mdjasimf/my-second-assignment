@@ -6,6 +6,28 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* camera transition */
+
+.banner-right:hover .photo{
+    transform: scale(1.5);
+    transition: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.banner-right:hover .camera-name{
+    display: block;
+
+
+}
+
+.camera-name{
+    font-size: 20px;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+/* camera transition */
 h3{
     font-size: 24px;
     font-weight:bold ;
@@ -55,10 +77,13 @@ h1{
     flex: 1;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 .banner-right img{
-    width: 440px;
+    width: 100%;
 }
+
 .third-section{
     width: 1047px;
     margin: 0 auto;
