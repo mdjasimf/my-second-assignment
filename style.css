@@ -71,8 +71,9 @@ h1{
 }
 .third-button{
     display: flex;
-    justify-content: right;
+    justify-content:center;
     margin-bottom: 50px;
+
 }
 .banner-right{
     display: flex;
@@ -148,7 +149,7 @@ h1{
 .footer{
     text-align: center;
     background-color: #0A0826;
-    height: 150px;
+    height: 250px;
     padding: 50px;
 }
 .footer h2{
@@ -171,6 +172,21 @@ h1{
 }
 
 /* resposive */
+@media only screen and ( max-width:1000px){
+    .colections{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px 15px;
+    }
+    .second-section{
+        width: 700px;
+    }
+    .collection-title{
+        font-size: 20px;
+    }
+    .old-collection{
+        width: 700px;
+    }
+}
 
 @media only screen and ( max-width:767px) {
     .first-section{
