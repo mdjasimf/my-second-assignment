@@ -71,20 +71,75 @@ h1{
 .colections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
     align-items:center;
     gap: 30px 30px;
 }
 .collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
     box-shadow: 3px 3px 20px gray;
 }
 .collection img{
     width: 300px;
     height: 256px;
 }
-.filled{
-    color: #FB8200;
+.collection-name{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 0px;
+    color: #18191F;
+}
+.collection-price{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: normal;
+    line-height: 150%;
 }
 .filled{
     color: #FB8200;
+    line-height: 1px;
+}
+.rating{
+    font-weight: bold;
+    font-size: 14px;
+    color: #5E6366;
+}
+.collection-description{
+    font-weight: bold;
+    font-size: 14px;
+    line-height:auto;
+    color: #787885;
+}
+.second-button{
+    color: rgba(224, 44, 109, 0.87);
+    Font size: 16px;
+    text-align:right;
+    margin-right:  140px;
+    margin-top: 50px;
+}
+.footer{
+    text-align: center;
+    background-color: #0A0826;
+    height: 150px;
+    padding: 50px;
+}
+.footer h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 0px;
+    color:#FFFFFF;
+}
+.footer p{
+    color:#D9DBE1;
+    font-size: 14px;
+}
+.footer-icon{
+    color:#FFFFFF;
+    padding: 5px;
+    background-color: #23213c;
+    border-radius: 50%;
+    padding: 8px;
+
 }
